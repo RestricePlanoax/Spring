@@ -22,7 +22,7 @@ HelloBeans hello2 = (HelloBeans)context2.getBean("helloBean");
 
 System.out.println(hello.sayHello());
 
-System.out.println("Application XML file is not in src folder " + hello2.sayHello());
+System.out.println("Application XML file is not in src folder" + hello2.sayHello());
 
 	}
 
